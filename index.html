@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexitex - Confección de Prendas para Dotación</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Color de fondo general */
+            color: #333;
+        }
+
+        header {
+            background-color: #0477BF; /* Color corporativo principal */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-color: #f20cb5; /* Otro color corporativo */
+            color: white;
+            padding: 5em 2em;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .section {
+            padding: 2em;
+            margin-bottom: 2em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1em;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #517c8c; /* Otro color corporativo */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #3e606d;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 300px; /* Ajusta la altura según necesites */
+            background-color: #ddd; /* Placeholder para el mapa */
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #517c8c; /* Otro color corporativo */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mexitex</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Confeccionamos calidad para tu equipo.</h1>
+        <p>Prendas de dotación que inspiran confianza y profesionalismo.</p>
+    </section>
+
+    <section id="quienes-somos" class="section">
+        <h2>Nuestra Historia</h2>
+        <p>Mexitex S.A.S fue constituida legalmente en el año 2001, en ese entonces
+        las operaciones se llevaban acabó en una casa ubicada en el barrio la floresta, después de 3 años en el mercado, y gracias a la buena acogida de nuestros productos la empresa se vio en la necesidad de ampliar tanto su planta de producción como sus instalaciones administrativas, fue así como llegamos al mall providencia, donde actualmente continuamos operaciones.</p>
+        <p>Algo que nos caracteriza desde nuestros inicios es que el producto se hace a partir de materias primas, siendo estas de la mejor calidad, y continua este cuidado a través del cuidado en los procesos de tejido y teñido que también se hace bajo la responsabilidad de nuestra empresa, teniendo los insumos idóneos para una prenda de CALIDAD GARANTIZADA, pues en nuestra planta se corta y confecciona siguiendo los más altos estándares de calidad y hechos por manos capacitadas y 100% Colombianas. La totalidad de la mano de obra está constituida por madres cabezas de familia quienes entregan toda su dedicación para obtener el mejor resultado.</p>
+        <p>En estos momentos hemos crecido gracias a empresas como Speedo, AFROSOUL, Grupo Empresarial Antioqueño (Nutresa), Universidad CES, SURAMERICANA, entre otros; a las cuales les prestamos nuestros servicios hace aproximadamente 6 años, cumpliéndoles con sus expectativas de calidad y cumplimiento.</p>
+        <p>La empresa presta servicios de dotación para las empresas desde camisetas hasta zapatos, vestidos, uniformes de presentación y otras prendas de alta calidad tratando de que nuestros cliente encuentren todo lo necesarios para sus empleados en presentación personal. Siendo antes que nada un asesor y no solo un vendedor.</p>
+    </section>
+
+    <section id="servicios" class="section">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Confección de camisetas para dotación</li>
+            <li>Confección de pantalones y overoles</li>
+            <li>Confección de uniformes de presentación</li>
+            <li>Confección de calzado de dotación</li>
+            <li>Asesoría personalizada en dotación empresarial</li>
+            <li>Y mucho más...</li>
+        </ul>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galería de Productos</h2>
+        <div class="gallery">
+            <img src="Imagenes/pexels-anna-nekrashevich-8532616.jpg" alt="">
+            <img src="Imagenes/pexels-david-bartus-43782-297933.jpg" alt="">
+            <img src="Imagenes/pexels-equalstock-31090810.jpg" alt="">
+            <img src="Imagenes/pexels-equalstock-31336027.jpg" alt="">
+            <img src="Imagenes/pexels-equalstock-32048354.jpg" alt="">
+            <img src="Imagenes/pexels-shkrabaanthony-6665030.jpg" alt="">
+            </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contáctanos</h2>
+        <div style="display: flex; gap: 20px;">
+            <div style="flex: 1;">
+                <h3>Formulario de Contacto</h3>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo Electrónico">
+                    <input type="text" placeholder="Asunto">
+                    <textarea placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+            <div style="flex: 1;">
+                <h3>Ubicación</h3>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6321.559620841552!2d-75.58950886348455!3d6.201721375144027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46827a3d413847%3A0x71b92b153a944503!2sMexitex%20S.A.S!5e1!3m2!1sen!2sco!4v1747434735057!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Enlaces de Interés</h3>
+        <ul>
+            <li><a href="#">Términos y Condiciones</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Preguntas Frecuentes</a></li>
+        </ul>
+        <p>&copy; 2023 Mexitex. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
